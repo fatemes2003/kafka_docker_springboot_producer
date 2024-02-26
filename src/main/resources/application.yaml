@@ -1,0 +1,8 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9093
+server:
+  port: 2020
+
+
+#  ack
