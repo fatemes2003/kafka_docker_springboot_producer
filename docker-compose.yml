@@ -3,7 +3,7 @@ version: '2.1'
 services:
   myspringkafkadocker:
     build:
-      context: ./
+      context: src
       dockerfile: Dockerfile
     mem_limit: 512m
     ports:
